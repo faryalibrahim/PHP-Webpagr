@@ -1,0 +1,181 @@
+/* For bleeding image */
+#myDIV { 
+width: 400px;
+  height: 400px;
+  background-repeat: no-repeat, repeat;
+  background-image: url("images\crane.gif"), url("images\blue.gif");
+  background-blend-mode: lighten;
+}
+/*For text on Image-- */
+.container {
+  position: relative;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  
+}
+
+
+
+/*text in table*/
+#test {
+                text-align: center;
+				width: 200px;
+                height: 200px;
+                margin: 0;
+                background-color: white;
+                color: black;
+                display: flex;
+				flex-wrap: wrap;
+                display: table-cell;
+                horizontal-align:center;
+            }
+			
+/* adjusting menu buttons*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 50%;
+  padding: 5px;
+}
+/* Heading Styling */
+h1 {
+  text-align:center; 
+  font-size: 40;
+  font-family: "Verdana";
+  color: #000;
+}
+/*styling for parrallel text boxes*/
+.parent {
+  border: no border;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: table-cell;
+  text-align:center;
+  border: 1px solid black;
+  color: #FFFFFF;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  height: 100px;
+  background-color:#0093af;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  display: table-cell;
+  vertical-align:center;
+}
+
+/* Button CSS */
+.button {
+  float: right;
+  background-color: #FFFFFF;
+  border: none;
+  color: white-space;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 6px 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.house {
+  background-color:#0093af;
+  color: #FFFFFF;
+  font-size: 20;
+  font-family: "Verdana";
+  margin-left: 10%;
+}
+/* Testimonials Slidshow */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #FFFFFF;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #FFFFFF;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #00CED1;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: black;}
+
+
+/*Quote image*/
+ quotes {
+  background-image: url('images\quotes.png');
+  background-repeat: no-repeat;
+}
